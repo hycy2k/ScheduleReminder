@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
     CalendarView m_calendarView;
     TextView m_reminderTextView;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

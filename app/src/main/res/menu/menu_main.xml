@@ -2,8 +2,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.hyc.schedulereminder.MainActivity" >
+
+    <item
+        android:id="@+id/app_bar_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:orderInCategory="101"
+        android:title="@string/action_search"
+        app:showAsAction="always|withText" />
+    <item
+        android:orderInCategory="102"
+        android:title="@string/action_listAll" />
     <item android:id="@+id/action_settings"
         android:title="@string/action_settings"
-        android:orderInCategory="100"
+        android:orderInCategory="103"
         app:showAsAction="never" />
 </menu>
